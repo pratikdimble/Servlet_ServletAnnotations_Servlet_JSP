@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import dto.Student;
 @WebServlet("/display")
-public class displayRecord extends HttpServlet {
+public class DisplayRecord extends HttpServlet {
 	public void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 
 		res.setContentType("text/html");
